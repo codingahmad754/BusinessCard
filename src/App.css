@@ -1,4 +1,53 @@
-.App {
+body {
+  background-color: #23252C;
+}
+
+.img {
+  width: 100%;
+}
+
+.content {
+  background-color: #F5F5F5;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%
+}
+
+.footer {
+  background-color: #D5D4D8;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+.heading--items {
+  margin: 3px 0;
+}
+
+
+.heading--role {
+  color: #F47D27
+}
+
+nav>a {
+  margin: 0px 5px;
+  /* margin: 100px 5px; */
+  background-color: #297FE5;
+  border-radius: 15px;
+  color: white;
+  padding: 1px 15px;
+  text-decoration: none;
+}
+
+.main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer--icon {
+  margin: 0 6px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -32,7 +81,8 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
-}
+} */
